@@ -1,14 +1,14 @@
 const projectsData=[
 {
 name:"M&G",
-demoUrl:"",
+demoUrl:"https://israa639.github.io/M-G-website/",
 imgSrc:"M&G.png",
 sourceCodeUrl:"https://github.com/israa639/M-G-website",
 technology:['HTML','CSS']
 },
 {
     name:"memory card game",
-    demoUrl:"",
+    demoUrl:"https://israa639.github.io/memoryCardGame.com/memory%20card%20game/index.html",
     imgSrc:"memoryCardGame.png",
     sourceCodeUrl:"https://github.com/israa639/memoryCardGame.com",
     
