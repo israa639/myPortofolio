@@ -1,38 +1,109 @@
-.App {
+body{
+ padding: 0;
+ margin: 0;
+box-sizing: border-box; 
+
+ 
+}
+
+.App{
+  
+  min-width: 100vw;
+  min-height: 300vh;
+  background-image: url('../public/assets/network-4851119_1920.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(9, 9, 27);
+ 
+
+}
+
+.Home{
+
+  
+  
+   color: white;
+   background-color: rgba(41, 37, 36, 1);
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+}
+
+.avatar{
+  animation:   image-rotation 3s linear infinite;
+  -webkit-animation:   image-rotation 3s linear infinite;
+}
+.animated-p{
+  animation: color-animation 2s linear infinite;
+  -webkit-animation: color-animation 2s linear  infinite;
+  font-size: 3rem;
+
+}
+
+  @keyframes color-animation {
+    0%,80% {
+     
+      color: rgb(187, 207, 207);
+}
+    20% {
+      color: rgba(20, 167, 45, 0.466);
+      
+}
+40%{
+  color: rgba(59, 20, 167, 0.466);
+
+}
+}
+ @keyframes image-rotation {
+  0%,80% {transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  }
+ }
+
+
+.ContactMe .form .name-input,.ContactMe .form .email-input,.ContactMe .form .message-textarea{
+ 
+  background-color: rgba(68,64,60,1); 
+
+  
+}
+
+.ContactMe .contact-info{
+  color: wheat;
+
+}
+.ContactMe .form button{
+ 
+  border: 2px solid green;
+  color: white;
+  border-radius:0.75rem ;
+  -webkit-border-radius:0.75rem ;
+  -moz-border-radius:0.75rem ;
+  -ms-border-radius:0.75rem ;
+  -o-border-radius:0.75rem ;
+   margin: 10px;
+  background-color: rgba(41, 37, 36, 0.96);
+}
+
+
+.top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+
+  padding: 10px 12px;
+  background: rgba(175, 165, 165, 0.3);
+  color: bisque;
+  border-radius: 5px;
+  justify-content: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.top:hover {
+    text-decoration: none;
+    background: rgba(0,0,0,.5);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
